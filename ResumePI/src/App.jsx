@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Components/Home';
-import About from './Components/About';
+import Experience from './Components/Experience';
 import Navbar from './Components/Navbar';
 import VmartPro from "./Components/VmartPro";
 import Prductpro from "./Components/Prductpro";
@@ -18,7 +18,7 @@ const App = () => {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/Experience" element={<Experience />} />
             <Route path="/VmartPro" element={<VmartPro />} />
             <Route path="/Prductpro" element={<Prductpro />} />
             <Route path="/Utilspro" element={<Utilspro />} />

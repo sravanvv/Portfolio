@@ -2,7 +2,7 @@ const Projects = () => {
   return (
     <>
       <div className="mx-4 sm:mx-10 md:mx-28">
-        <div className="grid grid-cols-1 mt-12 sm:grid-cols-2 gap-6 md:grid-cols-3 gap-10 sm:mt-30">
+        <div className="grid grid-cols-1 mt-8 sm:grid-cols-2 gap-4 md:grid-cols-3 gap-10 sm:mt-30">
           {/* Project 1 */}
           <div className="flex flex-col items-start mx-6 sm:mx-0">
             <div className="group relative ">
@@ -82,7 +82,6 @@ const Projects = () => {
           </div>
         </div>
       </div>
-
     </>
   );
 };

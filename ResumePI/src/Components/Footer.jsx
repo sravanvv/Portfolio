@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white p-6 mt-24 w-full">
+    <footer className="bg-gray-800 text-white p-8 mt-24 w-full">
       <div className="flex flex-col items-center gap-6 md:flex-row md:justify-center mt-10 mb-10">
         <a
           href="mailto:vvsravan0331@gmail.com"
@@ -43,18 +43,18 @@ const Footer = () => {
       </div>
       <div
         className="py-4 border-t border-neutral-500 flex flex-col md:flex-row justify-between
-       gap-5 mt-16 md:ml-32 md:mr-32"
+       gap-5 mt-16 md:ml-42 md:mr-42"
       >
         <nav
-          className="flex flex-col items-start  md:flex-row md:justify-start space-x-4 
+          className="flex flex-col items-start  md:flex-row md:justify-start space-x-6 
       color-white text-medium font-normal"
         >
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/About">About</NavLink>
+          <NavLink to="/Experience">Experience</NavLink>
           <NavLink to="/Projects">Projects</NavLink>
           <NavLink to="/Contact">Contact</NavLink>
         </nav>
-        <div className="flex md:justify-end space-x-2">
+        <div className="flex md:justify-end space-x-4">
           <a
             href="http://linkedin.com/in/vvenkatasravan"
             target="_blank"
