@@ -8,7 +8,7 @@ const Projects = () => {
             <div className="group relative ">
               <a href="./VmartPro" className="block w-full h-full relative">
                 <img
-                  src="/images/VMART1.jpeg"
+                  src="/Images/VMART1.jpeg"
                   alt="VMart Project"
                   className="rounded-lg object-contain w-full h-64 transition-transform duration-300"
                 />
@@ -35,7 +35,7 @@ const Projects = () => {
             <div className="group relative">
               <a href="./Prductpro" className="block w-full h-full relative">
                 <img
-                  src="/images/product.png"
+                  src="/Images/product.png"
                   alt="Text Utils"
                   className="rounded-lg object-contain w-full h-64 transition-transform duration-300"
                 />
@@ -62,7 +62,7 @@ const Projects = () => {
             <div className=" group relative">
               <a href="./VmartPro" className="block w-full h-full relative">
                 <img
-                  src="/images/utils2.png"
+                  src="/Images/utils2.png"
                   alt="Text Utils"
                   className="rounded-lg object-contain w-full h-64 transition-transform duration-300 "
                 />
