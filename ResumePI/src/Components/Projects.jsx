@@ -1,8 +1,10 @@
 const Projects = () => {
   return (
     <>
-      <div className="mx-25 sm:mx-10 md:mx-28">
-          <h2 className="text-2xl font-medium sm:text-3xl sm:font-semibold md:text-4xl md:font-semibold mt-14 mb-8">Projects</h2>
+      <div className="mx-4 sm:mx-10 md:mx-28">
+        <h2 className="text-2xl font-medium sm:text-3xl sm:font-semibold md:text-4xl md:font-semibold mt-14 mb-8">
+          Projects
+        </h2>
         <div className="mt-2 sm:mt-4 gap-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
           {/* Project 1 */}
           <div className="flex flex-col items-start mx-6 sm:mx-0">
