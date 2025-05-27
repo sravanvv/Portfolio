@@ -52,7 +52,6 @@ const Footer = () => {
           <NavLink to="/">Home</NavLink>
           <NavLink to="/Experience">Experience</NavLink>
           <NavLink to="/Projects">Projects</NavLink>
-          <NavLink to="/Contact">Contact</NavLink>
         </nav>
         <div className="flex md:justify-end space-x-4">
           <a

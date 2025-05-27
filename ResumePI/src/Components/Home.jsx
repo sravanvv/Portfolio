@@ -1,9 +1,17 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaReact } from "react-icons/fa6";
+import { FaLinkedin, FaGithub, FaReact, FaJava,FaBootstrap  } from "react-icons/fa6";
 import { MdContactMail } from "react-icons/md";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiJavascript } from "react-icons/si";
+import {
+  SiJavascript,
+  SiJirasoftware,
+  SiConfluence,
+  SiMongodb,
+} from "react-icons/si";
+import { IoLogoHtml5 } from "react-icons/io5";
 import Projects from "./Projects";
+import { FaCss3Alt } from "react-icons/fa";
+import { DiNodejs, DiDatabase } from "react-icons/di";
 
 const Home = () => {
   return (
@@ -46,31 +54,31 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin className="text-2xl text-blue-700 hover:text-blue-500" />
+              <FaLinkedin className="text-4xl text-blue-700 hover:text-blue-500" />
             </a>
             <a
               href="mailto:vvsravan0331@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <MdContactMail className="text-2xl text-blue-700 hover:text-blue-500" />
+              <MdContactMail className="text-4xl text-blue-700 hover:text-blue-500" />
             </a>
             <a
               href="https://github.com/sravanvv"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub className="text-2xl text-blue-700 hover:text-blue-500" />
+              <FaGithub className="text-4xl text-blue-700 hover:text-blue-500" />
             </a>
           </div>
         </div>
-
+        {/* 
         <h2
           className="text-2xl mt-14 font-medium sm:text-3xl sm:font-semibold md:text-4xl md:font-semibold
          sm:-mb-20"
         >
           Projects
-        </h2>
+        </h2> */}
       </div>
 
       <Projects />
@@ -79,21 +87,40 @@ const Home = () => {
         <h2 className="text-2xl font-medium sm:text-3xl sm:font-semibold md:text-4xl md:font-semibold mt-14 mb-8">
           Skills
         </h2>
-        <div className="flex gap-6 ml-12">
-          <FaReact
+        <div className="flex flex-wrap gap-8 ml-12 ">
+          {/* <FaReact
             className="text-4xl text-blue-700 transition-colors duration-500 
           hover:text-[#17c3b2] hover:animate-spin"
-          />
-          <RiTailwindCssFill className="text-4xl text-blue-700 hover:text-[#17c3b2]" />
-          <SiJavascript className="text-4xl text-yellow-500 duration-500 hover:text-[#17c3b2]" />
+          /> */}
+          <div className="relative group inline-block">
+            <FaReact className="text-4xl text-blue-500" />
+            <div
+              className="absolute left-1/2 -translate-x-1/2 mt-2 w-max bg-black text-white text-xs px-2 py-1
+             rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 whitespace-nowrap"
+            >
+              React
+            </div>
+          </div>
+          <RiTailwindCssFill className="text-4xl text-blue-700 hover:text-[#17c3b2] rounded-md shadow-xl" />
+          <SiJavascript className="text-4xl text-yellow-400 duration-500 hover:text-[#17c3b2] rounded-md shadow-xl" />
+          <FaJava className="text-4xl text-red-600 duration-500 hover:text-[#17c3b2] rounded-md shadow-xl" />
+          <IoLogoHtml5 className="text-4xl text-orange-500 duration-500 hover:text-[#17c3b2] rounded-md shadow-xl" />
+          <FaCss3Alt className="text-4xl text-blue-500 duration-500 hover:text-[#17c3b2] rounded-md shadow-xl" />
+          <FaGithub className="text-4xl text-black duration-500 hover:text-[#17c3b2] rounded-md shadow-xl" />
+          <DiNodejs className="text-4xl text-green-600 duration-500 hover:text-[#17c3b2] rounded-md shadow-xl" />
+          <DiDatabase className="text-4xl text-zinc-500 duration-500 hover:text-[#17c3b2] rounded-md shadow-xl" />
+          <SiJirasoftware className="text-4xl text-blue-500 duration-500 hover:text-[#17c3b2] rounded-md shadow-xl" />
+          <SiConfluence className="text-4xl text-blue-500 duration-500 hover:text-[#17c3b2] rounded-md shadow-xl" />
+          <SiMongodb className="text-4xl text-green-600 duration-500 hover:text-[#17c3b2] rounded-md shadow-xl" />
+        <FaBootstrap className="text-4xl text-purple-700 duration-500 hover:text-[#17c3b2] rounded-md shadow-xl"/>
         </div>
       </div>
 
       <div className="mx-4 sm:mx-10 md:mx-28 ">
+        <h2 className="text-2xl font-medium sm:text-3xl sm:font-semibold md:text-4xl md:font-semibold mt-14 mb-8">
+          Experience
+        </h2>
         <div className="lg:max-w-4xl lg:mx-auto">
-          <h2 className="text-2xl font-medium sm:text-3xl sm:font-semibold md:text-4xl md:font-semibold mt-14 mb-8">
-            Experience
-          </h2>
           {/* Experience Block 1 */}
           <div className="text-lg">
             <div className="flex flex-col sm:flex-row gap-8">

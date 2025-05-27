@@ -16,7 +16,7 @@ const Experience = () => {
             </div>
           </div>
           <div className="mt-4 text-base text-justify">
-            <ul className="list-disc pl-5 space-y-2  ">
+            <ul className="list-disc pl-5 space-y-2">
               <li>
                 Led front-end development using NEWGEN Process Designer,
                 JavaScript, and SQL to enhance UI, streamline workflows,

@@ -1,19 +1,87 @@
+import ImageCarousel from "./ImageCarousel.jsx";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+
 const VmartPro = () => {
   return (
-    <div className="bg-white p-4 rounded-lg shadow-md">
-      <h2 className="text-xl font-bold mb-2">VmartPro</h2>
-      <p className="text-gray-700 mb-4">
-        VmartPro is a B2B e-commerce platform that connects manufacturers and suppliers with retailers and wholesalers. It provides a wide range of products, including electronics, fashion, home goods, and more.
-      </p>
-      <h3 className="text-lg font-semibold mb-2">Key Features:</h3>
-      <ul className="list-disc list-inside mb-4">
-        <li>Wide range of products from various categories</li>
-        <li>Easy-to-use interface for seamless navigation</li>
-        <li>Secure payment options for safe transactions</li>
-        <li>Real-time inventory management for suppliers</li>
-        <li>Order tracking and management for retailers</li>
-      </ul>
-    </div>
+    <>
+      <div className="mx-6 sm:mx-10 lg:mx-64 lg:max-w-4xl lg:mx-auto">
+        <h2 className="mt-12 text-3xl font-bold">
+          V Mart – Discount Product Showcase
+        </h2>
+        <div className="mr-2 flex justify-end items-center lg:mr-10">
+          <a href="https://v-mart-website.vercel.app/"   target="_blank"
+          rel="noopener noreferrer">
+            <button
+              className="gap-2 mt-4 lg:mt-0 bg-[#17c3b2] text-white rounded-md px-4 py-1 flex items-center justify-center 
+          border-4 border-transparent hover:bg-white hover:text-[#17c3b2] hover:border-[#17c3b2] 
+          transition duration-500"
+            >
+              Live Demo
+              <span>
+                <FaArrowUpRightFromSquare />
+              </span>
+            </button>
+          </a>
+        </div>
+        <ImageCarousel />
+
+        <ul className="mt-4 text-sm flex flex-wrap gap-4">
+          <li className="border-1 rounded-md border-[#17c3b2] px-2 text-[#17c3b2]">
+            React
+          </li>
+          <li className="border-1 rounded-md border-[#17c3b2] px-2 text-[#17c3b2]">
+            JavaScript
+          </li>
+          <li className="border-1 rounded-md border-[#17c3b2] px-2 text-[#17c3b2]">
+            Tailwind CSS
+          </li>
+          <li className="border-1 rounded-md border-[#17c3b2] px-2 text-[#17c3b2]">
+            React Router
+          </li>
+          <li className="border-1 rounded-md border-[#17c3b2] px-2 text-[#17c3b2]">
+            Git
+          </li>
+          <li className="border-1 rounded-md border-[#17c3b2] px-2 text-[#17c3b2]">
+            Vercel
+          </li>
+        </ul>
+        <p className="my-4 text-justify">
+          Responsive React app for Vmart that displays discounted products using
+          real-time data from Google Sheets. Product details are maintained in a
+          CSV file, parsed dynamically in the frontend, and updated live without
+          redeployment. The UI is styled using Tailwind CSS, ensuring a sleek
+          and responsive user experience.
+        </p>
+        <p className="mt-2 font-medium text-justify">Key Features:</p>
+        <ul className="text-justify list-disc pl-5 space-y-2 mt-2">
+          <li>
+            <span className="font-medium">Live Product Updates </span>Product
+            information is sourced from a CSV file and parsed in real-time. Any
+            updates reflect instantly on the UI without the need for
+            redeployment.
+          </li>
+          <li>
+            <span className="font-medium">Google Maps Integration </span>
+            Embedded Google Maps to display store locations, enhancing user
+            navigation and accessibility.
+          </li>
+          <li>
+            <span className="font-medium">Responsive Design </span>Built with
+            Tailwind CSS for a seamless, mobile-first experience across all
+            device sizes.
+          </li>
+          <li>
+            <span className="font-medium">Optimized Performance </span>Clean,
+            efficient codebase with lazy loading for improved performance and
+            user experience.
+          </li>
+          <li>
+            Integrated React Router for smooth navigation between pages like
+            Home, Products, and Contact.
+          </li>
+        </ul>
+      </div>
+    </>
   );
-}
+};
 export default VmartPro;
