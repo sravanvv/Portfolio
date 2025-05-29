@@ -16,7 +16,8 @@ const ImageCarousel = () => {
     setcurrent((prev) => (prev === 0 ? images.length - 1 : prev - 1));
   };
   return (
-    <div className="mt-6 mb-6 relative w-full max-w-xl mx-auto overflow-hidden rounded-2xl shadow-xl">
+    <div className="mt-6 mb-6 relative w-full max-w-xl mx-auto overflow-hidden rounded-2xl shadow-xl
+     border-2  border-[#17c3b2] rounded-lg hover:scale-105">
       <img
         src={images[current]}
         alt={`slide-${current}`}

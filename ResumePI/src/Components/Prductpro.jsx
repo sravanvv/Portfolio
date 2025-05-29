@@ -25,11 +25,12 @@ const Productpro = () => {
             </button> */}
           </a>
         </div>
-        <div className="mt-6 mb-6 relative w-full max-w-xl mx-auto overflow-hidden rounded-2xl shadow-xl">
+        <div className="mt-6 mb-6 relative w-full max-w-xl mx-auto overflow-hidden rounded-xl shadow-xl">
           <img
-            src="/Images/textutils.png"
+            src="/Images/product.png"
             alt="Utils"
-            className="w-full h-full sm:h-80 object-contain transition duration-500 ease-in-out bg-white p-2"
+            className="w-full h-full sm:h-80 object-contain transition duration-500 ease-in-out bg-white p-2
+            border-2 rounded-2xl border-[#17c3b2] rounded-lg hover:scale-105"
           />
         </div>
 
@@ -41,45 +42,52 @@ const Productpro = () => {
             JavaScript
           </li>
           <li className="border-1 rounded-md border-[#17c3b2] px-2 text-[#17c3b2]">
-            Bootstrap
+            Node.js
           </li>
           <li className="border-1 rounded-md border-[#17c3b2] px-2 text-[#17c3b2]">
-            CSS
+            Express
           </li>
           <li className="border-1 rounded-md border-[#17c3b2] px-2 text-[#17c3b2]">
-            Git
+            MongoDB
           </li>
           <li className="border-1 rounded-md border-[#17c3b2] px-2 text-[#17c3b2]">
-            Vercel
+            CRUD API's
           </li>
         </ul>
         <p className="my-4 text-justify">
-          A responsive React web app for analyzing and transforming text in real
-          time. Designed with usability in mind, it offers multiple tools to
-          enhance, clean, and format text content for developers, writers, and
-          students.
+          A full-stack application developed using React, Node.js, Express, and
+          MongoDB to manage and display a product catalog in a dashboard format.
+          The app supports real-time CRUD operations for seamless product
+          management. Backend APIs are built with Express and MongoDB using
+          Mongoose for data modeling. The UI is styled with Tailwind CSS to
+          ensure responsiveness and clean layout across devices. Focused on
+          modular code structure and efficient RESTful integrations.
         </p>
         <p className="mt-2 font-medium text-justify">Key Features:</p>
         <ul className="text-justify list-disc pl-5 space-y-2 mt-2">
           <li>
-            <span className="font-medium">Text Utilities: </span>Convert text to
-            uppercase/lowercase, remove extra spaces, remove special characters,
-            copy to clipboard, and count words/characters with live preview.
+            <span className="font-medium">MERN Stack Architecture: </span>Built
+            with React for the frontend, Express and Node.js for the backend,
+            and MongoDB as the database.
           </li>
           <li>
-            <span className="font-medium"> Responsive UI: </span>
-            Built with Bootstrap and custom CSS to ensure usability on all
-            screen sizes.
+            <span className="font-medium">Product Management: </span>
+            Allows adding, editing, viewing, and deleting product entries with
+            form validations and responsive UI.
           </li>
           <li>
-            <span className="font-medium">Responsive Design: </span>Built with
-            Tailwind CSS for a seamless, mobile-first experience across all
-            device sizes.
+            <span className="font-medium"> MongoDB Integration: </span>Uses
+            Mongoose to define product schemas and handle database interactions
+            efficiently.
           </li>
           <li>
-            <span className="font-medium">Real-Time Processing: </span>All
-            transformations are applied instantly using React’s state management
-            for fast and smooth updates.
+            <span className="font-medium">Tailwind CSS Styling: </span>Clean,
+            responsive layout with consistent design for desktop and mobile.
+          </li>
+          <li>
+            <span className="font-medium">Modular Codebase: </span>Organized
+            React components and RESTful API structure make the app scalable and
+            easy to maintain.
           </li>
         </ul>
       </div>

@@ -13,11 +13,11 @@ const Projects = () => {
                 <img
                   src="/Images/VMART1.jpeg"
                   alt="VMart Project"
-                  className="rounded-lg object-contain w-full h-64 transition-transform duration-300"
+                  className="rounded-lg object-contain w-full h-64 transition-transform duration-500"
                 />
                 <div
                   className="absolute inset-0 flex items-center justify-center opacity-0 
-                         group-hover:opacity-100 transition-opacity duration-300 
+                         group-hover:opacity-100 transition-opacity duration-500 
                          bg-black/50 text-white text-sm font-medium"
                 >
                   Read More
@@ -36,19 +36,19 @@ const Projects = () => {
           {/* Project 2 */}
           <div className="flex flex-col items-start mx-6 sm:mx-0">
             <div className="group relative">
-              <a href="" className="block w-full h-full relative">
+              <a href="./Prductpro" className="block w-full h-full relative">
                 <img
                   src="/Images/product.png"
                   alt="Text Utils"
-                  className="rounded-lg object-contain w-full h-64 transition-transform duration-300"
+                  className="rounded-lg object-contain w-full h-64 transition-transform duration-500"
                 />
-                {/* <div
+                <div
                   className="absolute inset-0 flex items-center justify-center opacity-0 
-                         group-hover:opacity-100 transition-opacity duration-300 
+                         group-hover:opacity-100 transition-opacity duration-500 
                          bg-black/50 text-white text-sm font-medium"
                 >
                   Read More
-                </div> */}
+                </div>
               </a>
             </div>
 
@@ -67,11 +67,11 @@ const Projects = () => {
                 <img
                   src="/Images/utils2.png"
                   alt="Text Utils"
-                  className="rounded-lg object-contain w-full h-64 transition-transform duration-300 "
+                  className="rounded-lg object-contain w-full h-64 transition-transform duration-500 "
                 />
                 <div
                   className="absolute inset-0 flex items-center justify-center opacity-0 
-                         group-hover:opacity-100 transition-opacity duration-300 
+                         group-hover:opacity-100 transition-opacity duration-500 
                          bg-black/50 text-white text-sm font-medium"
                 >
                   Read More

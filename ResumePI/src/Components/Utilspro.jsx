@@ -25,11 +25,12 @@ const Utilspro = () => {
             </button>
           </a>
         </div>
-        <div className="mt-6 mb-6 relative w-full max-w-xl mx-auto overflow-hidden rounded-2xl shadow-xl">
+        <div className="mt-6 mb-6 relative w-full max-w-xl mx-auto overflow-hidden rounded-xl shadow-xl">
           <img
             src="/Images/textutils.png"
             alt="Utils"
-            className="w-full h-full sm:h-80 object-contain transition duration-500 ease-in-out bg-white p-2"
+            className="w-full h-full sm:h-80 object-contain transition duration-500 ease-in-out bg-white p-2
+             border-2 rounded-2xl border-[#17c3b2] rounded-lg hover:scale-105"
           />
         </div>
 
