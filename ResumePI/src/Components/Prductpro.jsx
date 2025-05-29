@@ -1,4 +1,5 @@
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 const Productpro = () => {
   return (
@@ -90,6 +91,36 @@ const Productpro = () => {
             easy to maintain.
           </li>
         </ul>
+              <div className="flex flex-col justify-center items-center gap-10">
+          <a
+            href="https://github.com/sravanvv/Mini-Grocery-Site/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button
+              className="mt-10 bg-[#17c3b2] text-white rounded-md px-4 py-1 flex items-center 
+            justify-center border-4 border-transparent hover:bg-white hover:text-[#17c3b2] 
+             hover:border-[#17c3b2] transition duration-500"
+            >
+              <span className="mr-2">
+                <FaGithub className="text-2xl text-black hover:text-blue-500" />{" "}
+              </span>
+              GitHub Repository
+              <span>
+                <FaArrowUpRightFromSquare className="ml-2" />
+              </span>
+            </button>
+          </a>
+          <a href="/Projects">
+            <button
+              className="bg-[#17c3b2] text-white rounded-md px-4 py-1 flex items-center 
+            justify-center border-4 border-transparent hover:bg-white hover:text-[#17c3b2] 
+             hover:border-[#17c3b2] transition duration-500"
+            >
+              See all Projects
+            </button>
+          </a>
+        </div>
       </div>
     </>
   );
